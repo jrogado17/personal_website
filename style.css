@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html, body{
+    height:100%;
+}
+
+/*HEADER FOR ALL PAGES*/
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#9CB520;
+        font-family: Tahoma, sans-serif;
+        width:100%;
+        height: 100px;
+        align-items: center;
+    }
+
+    .header h1{
+        padding-left: max(11px, 2vw);
+        color:#414533;
+        white-space: nowrap;
+    }
+    .header ul{
+        display: flex;
+        flex-direction: row;
+        padding-right: max(11px, 2vw);
+    }
+
+    .header li{
+        color: #414533;
+        list-style-type: none;
+        padding: 2vw;
+        font-size: 20px;
+    }
+
+    .header a{
+        text-decoration: none;
+        color: #414533;
+    }
+
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+main{
+    /* min-height:100vh;
+    margin-bottom:-100px; */
+}
+/* FOOTER FOR INDEX  */
+.footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+/* .about_footer{
+    align-items: center;
+    position:relative;
+    margin-top:20px;
+    min-height: auto;
+} */
+/* FOOTER FOR ABOUT PAGE */
+.about-footer {
+    /* position: absolute;
+    width: 100%;
+    margin-top:auto 0; */
+    position: relative; 
+    bottom: 0px; 
+    height:150px;
+    width:100%;
+
+}
+/* Footer Contents for all pages */
+#contact{
+    background-color: #9CB520;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+#contact ul{
+list-style-type: none;
+font-family: Tahoma, sans-serif;
+color:#414533;
+padding-top:0;
+}
+#contact li{
+padding:15px;
+padding-top:0;
+}
+#contact h2{
+padding-top:5px;
+padding-left:40px;
+padding-bottom: 15px;
+text-decoration: underline;
+}
+footer a{
+text-decoration: none;
+color:#414533;
+}
+#contact a:hover{
+color:black;
+text-decoration: underline;
+}
+
+/*body style for home*/
+    main ul{
+        list-style-type: none;
+    }
+
+    .RHS{
+        margin-right:30px;
+        padding: 50px;
+        margin-top:100px;
+        box-shadow: 0 0 40px rgba(100, 75, 75, 0.3);
+        border-radius: 40px;
+        line-height: 30px;
+        display: flex;
+        float:right;
+        flex-direction: column;
+        text-align: center;
+        font-family: Tahoma, sans-serif;
+        align-items: center;
+        }
+    main p{
+        inline-size: 300px;
+        text-align:justify;
+    }
+
+    main img{
+        border-radius: 50%;
+        padding:0;
+        margin-bottom: 20px;
+        width:50%;
+        position:relative;
+    }
+
+
+/*header style for about page*/
+/*page titled*/
+.main-wrapper{
+    padding-bottom: 90px;
+}
+.about-me{
+    font-family: Tahoma, sans-serif;
+    padding: 15px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 700px;
+}
+.about-me h1{
+    padding-bottom: 50px;
+    padding-top: 26px;
+    text-align: center;
+    position:relative;
+}
+
+/* summary box*/
+#summary{
+    padding: 1em;
+    box-shadow: 0 0 100px rgba(100, 75, 75, 0.3);
+    border-radius: 10px;
+    border: 3px solid #9CB520;
+}
+#summary h2{
+    padding-bottom: 3%;
+    padding-top:0;
+    text-align: center;
+}
+#summary p{
+    width: 100%;
+}
+#education{
+    padding: 1em;
+    box-shadow: 0 0 100px rgba(100, 75, 75, 0.3);
+    border-radius: 10px;
+    border: 3px solid #9CB520;
+    position:relative;
+    text-align: center;
+    padding-right: 0;
+    position:sticky;
+    /* width:41em; */
+}
+#education img{
+
+}
+
+p {
+    line-height: 21px;
+}
+
+#cat{
+    padding: 1em;
+    box-shadow: 0 0 100px rgba(100, 75, 75, 0.3);
+    border-radius: 10px;
+    border: 3px solid #9CB520;
+    text-align: center;
+    position:sticky;
+    height: 50%;
+    font-family: Tahoma, sans-serif;
+
+}
+#cat p{
+    width:100%;
+}
+#cat img{
+    width:150px;
+    margin-top: 20px;
+}
+
+.main-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*portfolio*/
+
+.Projects{
+    font-family: Tahoma, sans-serif;
+    padding: 15px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding:0;
+
+}
+.Projects #project1, #project2, #project3{
+    border: 5px solid #9CB520;
+    padding:15px;
+    padding-bottom: 0;
+
+}
+.Projects h1{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    text-align: left;
+    position:relative;
+}
+.Projects h3{
+    font-size: 25px;
+}
+.Projects img{
+    float:right;
+     border-radius:0;
+     width:40%;
+}
+.Projects p{
+    float:left;
+    width: 600px;
+}
